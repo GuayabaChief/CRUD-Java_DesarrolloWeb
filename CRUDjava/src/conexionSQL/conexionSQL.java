@@ -17,7 +17,7 @@ public class conexionSQL {
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conectar=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/base","root","abril2003");
+            conectar=(Connection) DriverManager.getConnection("jdbc:mysql://localhost/base","root","aca va la contraseña");
             
             JOptionPane.showMessageDialog(null,"Conexion Exitosa");
             
