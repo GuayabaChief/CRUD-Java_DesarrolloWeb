@@ -318,7 +318,7 @@ public class sistema extends javax.swing.JFrame {
         int filaSeleccionada = tablaCategorias.getSelectedRow();
         
         try{
-            String SQL="delete from alumnos where idCategoria=" + tablaCategorias.getValueAt(filaSeleccionada, 0);
+            String SQL="delete from Categoria where idCategoria=" + tablaCategorias.getValueAt(filaSeleccionada, 0);
             
             Statement st=con.createStatement();
             
